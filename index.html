@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notion Calendar Test</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      background: #fff7fb;
+      font-family: "Apple SD Gothic Neo", "Noto Sans KR", Arial, sans-serif;
+      color: #4a3b44;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 720px;
+      padding: 28px 24px;
+      background: #ffffff;
+      border: 2px solid #ffd8e8;
+      border-radius: 28px;
+      box-shadow: 0 14px 34px rgba(255, 150, 195, 0.25);
+      text-align: center;
+    }
+
+    .icon {
+      width: 64px;
+      height: 64px;
+      margin: 0 auto 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 22px;
+      background: #fff0f7;
+      border: 2px solid #ffd8e8;
+      font-size: 34px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 24px;
+      letter-spacing: -0.04em;
+    }
+
+    p {
+      margin: 0;
+      color: #7f6a75;
+      line-height: 1.7;
+      font-size: 15px;
+    }
+
+    .chips {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 18px;
+    }
+
+    .chip {
+      padding: 7px 11px;
+      border-radius: 999px;
+      background: #fff7fb;
+      border: 1px solid #ffe0ed;
+      color: #765f6a;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="icon">🗓️</div>
+    <h1>GitHub Pages 연결 성공!</h1>
+    <p>
+      이 화면이 노션이나 브라우저에서 보이면 GitHub Pages 배포는 성공입니다.<br>
+      이제 다음 단계에서 Google Calendar iframe만 다시 넣으면 됩니다.
+    </p>
+    <div class="chips">
+      <span class="chip">🌷 Notion Widget</span>
+      <span class="chip">🍓 Test
